@@ -1,0 +1,84 @@
+
+# StoryVerse Development Log
+
+Last updated: 16 November 2026
+
+## 1. Project vision
+StoryVerse is a premium reading and writing application combining an immersive digital library, customizable reader and intelligent authoring studio.
+
+## 2. Main navigation
+- Home
+- Library
+- Discover
+- Create
+- Profile
+
+## 3. Reader features
+- Import EPUB, PDF and TXT files initially.
+- Read offline.
+- Customize fonts, sizes, spacing, colours and backgrounds.
+- Look up words without leaving the page.
+- Get explanations of selected passages.
+- Save bookmarks, notes, vocabulary and reading progress.
+- Discover legally available free books and legitimate purchase links.
+
+## 4. Author Studio
+- Create and manage separate story projects.
+- Organize characters, worlds, settings, plots and timelines.
+- Plan chapters, scenes, arcs and backstories.
+- Write and edit manuscripts.
+- Search project information.
+- Use an AI assistant that distinguishes established story canon from new suggestions.
+- Autosave work.
+
+## 5. Visual direction
+Create an original cinematic, premium interface with atmospheric depth, beautiful book covers, elegant cards and purposeful motion.
+
+Both Dark Mode and Light Mode must be carefully designed. The reader should be calm and distraction-free.
+
+## 6. Technical direction
+- Flutter.
+- Android first, with a responsive web preview.
+- Local-first and offline-first architecture.
+- Local database and persistent storage.
+- Optional AI services behind a replaceable integration layer.
+- Never host unauthorized copyrighted books.
+
+## 7. Existing prototype
+Build 02 was previously prepared outside this repository.
+
+It includes:
+- Five-tab navigation.
+- Home screen.
+- Library screen with sample search and filters.
+- Discover screen.
+- Create screen.
+- Profile and theme settings.
+- Light, Dark and System themes.
+
+Important: these are prototype screens. File importing, real book reading, project persistence and online discovery are not yet implemented.
+
+## 8. Development roadmap
+1. Establish the GitHub project structure.
+2. Add the Flutter starter source.
+3. Configure Flutter Web.
+4. Set up automated GitHub Pages deployment.
+5. Verify the build and fix errors.
+6. Publish a working preview.
+7. Implement local storage and book importing.
+8. Build the full reading experience.
+9. Develop the Author Studio.
+10. Add search, AI assistance, testing and release preparation.
+
+## 9. Development rules
+- Document every completed milestone.
+- Record technical decisions and outstanding issues.
+- Never describe an unimplemented feature as functional.
+- Keep passwords, API keys and secrets out of this public repository.
+- Update this log after every significant development step.
+
+## 10. Current status
+Repository: Stellar289/StoryVerse
+Branch: main
+Status: Initial repository created. Development log being added.
+Next task: Add the Flutter starter project and establish the web preview.
