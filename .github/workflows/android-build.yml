@@ -14,15 +14,17 @@ jobs:
       - name: Check out StoryVerse
         uses: actions/checkout@v4
 
-      - name: Extract Build 03
-        run: |
-          unzip -o StoryVerse_Starter_Project_v0.1_build03.zip -d .
+      - name: Extract Build 04 source
+        run: unzip -o StoryVerse_Starter_Project_v0.1_build04.zip -d .
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
+
+      - name: Generate Android platform files
+        run: flutter create --platforms=android --project-name storyverse .
 
       - name: Install dependencies
         run: flutter pub get
