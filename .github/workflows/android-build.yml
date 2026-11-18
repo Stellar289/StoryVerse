@@ -14,8 +14,8 @@ jobs:
       - name: Check out StoryVerse
         uses: actions/checkout@v4
 
-      - name: Extract Build 06 source
-        run: unzip -o StoryVerse_Starter_Project_v0.1_build06.zip -d .
+      - name: Extract Build 06 Fix 1 source
+        run: unzip -o StoryVerse_Starter_Project_v0.1_build06_fix1.zip -d .
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -38,7 +38,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: storyverse-build06-apk
+          name: storyverse-build06-fix1-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
           if-no-files-found: error
           retention-days: 14
